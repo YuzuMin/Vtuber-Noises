@@ -9,7 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Switch;
 
-public class Settings extends AppCompatActivity {
+public class SoundSettings extends AppCompatActivity {
 
     Switch switch1;
     Switch switch2;

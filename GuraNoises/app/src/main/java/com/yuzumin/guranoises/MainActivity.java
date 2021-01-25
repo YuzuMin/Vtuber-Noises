@@ -18,7 +18,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.*;
 
 public class MainActivity extends AppCompatActivity implements Count.CountListener{
@@ -144,14 +143,9 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
         switch (item.getItemId()){
-            case(R.id.about):
-                Intent intent;
-                intent = new Intent(MainActivity.this,About.class);
-                startActivity(intent);
-                break;
             case(R.id.settings):
                 Intent settingmenu;
-                settingmenu = new Intent(MainActivity.this,Settings.class);
+                settingmenu = new Intent(MainActivity.this, SettingsMenu.class);
                 startActivity(settingmenu);
                 break;
         }
