@@ -18,9 +18,10 @@
     <color name="homecard2">#963BC7</color>
     <color name="alarmbutton">#8660FF</color>
     <color name="blvck">#FF1f1f1f</color>
-    <color name="lightblvck">#FF333333</color>
+    <color name="lightblvck">#222222</color>
     <color name="clearblvck">#641f1f1f</color>
-    <color name="darkblvck">#101010</color>
+    <color name="darkdarkblvck">#050505</color>
+    <color name="darkblvck">#121212</color>
     <color name="porcelain">#F3F3F3</color>
     <color name="darkporcelain">#ACACAC</color>
     <color name="gurablue">#005FA8</color>

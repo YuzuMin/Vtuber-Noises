@@ -8,8 +8,8 @@
         android:id="@+id/Alarm"
         android:title="Alarm" />
     <item
-        android:icon="@drawable/abt_settings"
-        android:id="@+id/settings"
+        android:icon="@drawable/abt_menu"
+        android:id="@+id/menu_btn"
         android:title="Settings"
         app:showAsAction="always" />
 

@@ -11,14 +11,14 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
-public class SettingsMenu extends AppCompatActivity {
+public class AppMenu extends AppCompatActivity {
 
     CardView AppYoutube;
-    CardView AppDownload;
+    CardView AppVersion;
     CardView LegalInformation;
 
     CardView Sound_Settings;
-    CardView Character;
+    CardView AppDownload;
     CardView MoreApps;
 
     Integer DevCount=1;
@@ -30,7 +30,7 @@ public class SettingsMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_menu);
+        setContentView(R.layout.app_menu);
         getSupportActionBar().hide();
 
         //Get SharedPreference to Check Developer Mode
@@ -60,31 +60,31 @@ public class SettingsMenu extends AppCompatActivity {
         });
 
 
-        AppDownload =findViewById(R.id.app_version);
-        AppDownload.setOnClickListener(new View.OnClickListener() {
+        AppVersion =findViewById(R.id.app_version);
+        AppVersion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 if(DevCount>=7){
-                    Toast.makeText(SettingsMenu.this, "You are now a Developer", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AppMenu.this, "You are now a Developer", Toast.LENGTH_SHORT).show();
                     editor =getSharedPreferences("DevMode",MODE_PRIVATE).edit();
                     editor.putInt("DevCount",7);//maintain the DevCount at 7
                     editor.apply();
                 }else{
-                    Toast.makeText(SettingsMenu.this, "You are "+(7-DevCount)+" steps from being a Developer", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AppMenu.this, "You are "+(7-DevCount)+" steps from being a Developer", Toast.LENGTH_SHORT).show();
                     editor =getSharedPreferences("DevMode",MODE_PRIVATE).edit();
                     editor.putInt("DevCount",DevCount++);//add 1 to DevCount
                     editor.apply();
                 }
             }
         });
-        AppDownload.setOnTouchListener(new View.OnTouchListener() {
+        AppVersion.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    AppVersion.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    AppVersion.setCardBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
@@ -97,7 +97,7 @@ public class SettingsMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(SettingsMenu.this, LegalInfo.class);
+                intent = new Intent(AppMenu.this, LegalInfo.class);
                 startActivity(intent);
             }
         });
@@ -120,7 +120,7 @@ public class SettingsMenu extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(SettingsMenu.this, SoundSettings.class);
+                intent = new Intent(AppMenu.this, ClickerSettings.class);
                 startActivity(intent);
             }
         });
@@ -139,22 +139,22 @@ public class SettingsMenu extends AppCompatActivity {
 
 
         //To set character stuff
-        Character=findViewById(R.id.character);
-        Character.setOnClickListener(new View.OnClickListener() {
+        AppDownload =findViewById(R.id.app_downloads);
+        AppDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent;
-                intent = new Intent(SettingsMenu.this, CharacterSettings.class);
+                intent = new Intent(AppMenu.this, AppItemDownloads.class);
                 startActivity(intent);
             }
         });
-        Character.setOnTouchListener(new View.OnTouchListener() {
+        AppDownload.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 if(event.getAction() == MotionEvent.ACTION_UP) {
-                    Character.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
+                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.darkblvck));
                 } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                    Character.setCardBackgroundColor(getResources().getColor(R.color.blvck));
+                    AppDownload.setCardBackgroundColor(getResources().getColor(R.color.blvck));
                 }
                 return false;
             }
