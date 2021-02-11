@@ -143,9 +143,9 @@ public class AppMenu extends AppCompatActivity {
         AppDownload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent;
-                intent = new Intent(AppMenu.this, AppItemDownloads.class);
-                startActivity(intent);
+                Intent i = new Intent(android.content.Intent.ACTION_VIEW);
+                i.setData(Uri.parse("https://drive.google.com/drive/folders/1sdPmRkkI7m1L4-3Fo1eI8n5yBx6LnKxz?usp=sharing"));
+                startActivity(i);
             }
         });
         AppDownload.setOnTouchListener(new View.OnTouchListener() {

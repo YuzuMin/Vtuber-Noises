@@ -3,6 +3,7 @@ package com.yuzumin.guranoises.activities;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -27,12 +28,23 @@ public class RingActivity extends AppCompatActivity {
     @BindView(R.id.activity_ring_snooze) CardView snooze;
     @BindView(R.id.activity_ring_clock) ImageView clock;
 
+    SharedPreferences SavedSettings;
+    int charavalue;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ring);
         getSupportActionBar().hide();
         ButterKnife.bind(this);
+
+        SavedSettings =getSharedPreferences("Chara",MODE_PRIVATE);
+        charavalue= SavedSettings.getInt("CharaValue",0);
+        if(charavalue==0){
+            clock.setImageResource(R.drawable.gura0);
+        }else if (charavalue==1){
+            clock.setImageResource(R.drawable.gura1);
+        }
 
         dismiss.setOnClickListener(new View.OnClickListener() {
             @Override

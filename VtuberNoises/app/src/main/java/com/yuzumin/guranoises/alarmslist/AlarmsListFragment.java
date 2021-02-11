@@ -40,7 +40,10 @@ public class AlarmsListFragment extends Fragment implements OnToggleAlarmListene
                 }
             }
         });
+
+
     }
+
 
     @Nullable
     @Override
@@ -61,6 +64,7 @@ public class AlarmsListFragment extends Fragment implements OnToggleAlarmListene
 
         return view;
     }
+
 
     @Override
     public void onToggle(Alarm alarm) {

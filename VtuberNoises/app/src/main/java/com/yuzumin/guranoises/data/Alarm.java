@@ -27,7 +27,7 @@ import static com.yuzumin.guranoises.broadcastreceiver.AlarmBroadcastReceiver.TU
 import static com.yuzumin.guranoises.broadcastreceiver.AlarmBroadcastReceiver.WEDNESDAY;
 
 @Entity(tableName = "alarm_table")
-public class Alarm {
+public class    Alarm {
     @PrimaryKey
     @NonNull
     private int alarmId;
