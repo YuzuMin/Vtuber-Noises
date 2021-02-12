@@ -1,34 +1,36 @@
 package com.yuzumin.guranoises;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LegalInfo extends AppCompatActivity {
 
 
+    ImageView back_btn;
     LinearLayout Terms_And_Conditions;
     LinearLayout Privacy_Policy;
     LinearLayout License;
-    LinearLayout Source;
 
-    Integer DevCount=1;
-
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_legal_info);
         getSupportActionBar().hide();
+
+        back_btn=findViewById(R.id.back_btn);
+        back_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
 
         //Press to open Reader activity to read stuff
@@ -44,9 +46,6 @@ public class LegalInfo extends AppCompatActivity {
         License.setOnClickListener(click_LC);
         License.setOnTouchListener(touch_LC);
 
-        Source=findViewById(R.id.source_code);
-        Source.setOnClickListener(click_SA);
-        Source.setOnTouchListener(touch_SA);
     }
 
     private final View.OnClickListener click_UA=new View.OnClickListener() {
@@ -121,31 +120,6 @@ public class LegalInfo extends AppCompatActivity {
 
             } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
                 License.setBackgroundColor(getResources().getColor(R.color.blvck));
-            }
-            return false;
-        }
-    };
-
-
-    private final View.OnClickListener click_SA=new View.OnClickListener() {
-        //To open version activity
-        @Override
-        public void onClick(View v) {
-            Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-            i.setData(Uri.parse("https://github.com/YuzuMin/Vtuber-Noises"));
-            startActivity(i);
-        }
-    };
-
-    private final View.OnTouchListener touch_SA= new View.OnTouchListener() {
-        //To change button color from dark blvck to blvck
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-            if(event.getAction() == MotionEvent.ACTION_UP) {
-                Source.setBackgroundColor(getResources().getColor(R.color.darkblvck));
-
-            } else if(event.getAction() == MotionEvent.ACTION_DOWN) {
-                Source.setBackgroundColor(getResources().getColor(R.color.blvck));
             }
             return false;
         }

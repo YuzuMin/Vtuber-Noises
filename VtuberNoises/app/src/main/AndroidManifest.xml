@@ -14,17 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AppItemDownloads" />
-        <activity android:name=".Sources" />
-        <activity android:name=".LegalInfo" />
-        <activity android:name=".Reader" />
-        <activity android:name=".AppMenu" />
-        <activity android:name=".activities.AlarmActivity" />
         <activity
-            android:name=".ClickerSettings"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +23,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.RingActivity" />
+        <activity
+            android:name=".AppItemDownloads"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LegalInfo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Reader"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AppMenu"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.AlarmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClickerSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activities.RingActivity"
+            android:screenOrientation="portrait"/>
 
         <receiver android:name=".broadcastreceiver.AlarmBroadcastReceiver">
             <intent-filter>
