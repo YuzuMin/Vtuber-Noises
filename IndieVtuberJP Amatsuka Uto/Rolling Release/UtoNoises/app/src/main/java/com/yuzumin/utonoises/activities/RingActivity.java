@@ -41,9 +41,9 @@ public class RingActivity extends AppCompatActivity {
         SavedSettings =getSharedPreferences("Chara",MODE_PRIVATE);
         charavalue= SavedSettings.getInt("CharaValue",0);
         if(charavalue==0){
-            clock.setImageResource(R.drawable.gura0);
+            clock.setImageResource(R.drawable.uto0);
         }else if (charavalue==1){
-            clock.setImageResource(R.drawable.gura1);
+            clock.setImageResource(R.drawable.uto1);
         }
 
         dismiss.setOnClickListener(new View.OnClickListener() {

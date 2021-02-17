@@ -98,9 +98,9 @@ int main()
     //For private void retrievedata()
     for (temp_num = start_num; temp_num <= end_num; temp_num++) {
         cout << "SavedSettings =getSharedPreferences(\"save" << temp_num + 2 << "\", MODE_PRIVATE);" << endl;
-        cout << "switch4= SavedSettings.getBoolean(\"value" << temp_num + 2 << "\",true);" << endl;
+        cout << "switch" << temp_num + 2 << "= SavedSettings.getBoolean(\"value" << temp_num + 2 << "\",true);" << endl;
         cout << "if (switch" << temp_num + 2 << ") {" << endl;
-        cout << "listofsounds.add(" << temp_num + 2 << ")" << endl;
+        cout << "listofsounds.add(" << temp_num + 2 << ");" << endl;
         cout << "}";
         cout << endl;
     }
@@ -141,7 +141,7 @@ int main()
         cout << "switch" << temp_num + 2 << ".setOnClickListener(new View.OnClickListener() {" << endl;
         cout << "@Override" << endl;
         cout << "public void onClick(View v) {" << endl;
-        cout << "if(switc" << temp_num + 2 << ".isChecked()){" << endl;
+        cout << "if(switch" << temp_num + 2 << ".isChecked()){" << endl;
         cout << "SoundSettingsEditor =getSharedPreferences(\"save" << temp_num + 2 << "\",MODE_PRIVATE).edit();" << endl;
         cout << "SoundSettingsEditor.putBoolean(\"value" << temp_num + 2 << "\",true);" << endl;
         cout << "SoundSettingsEditor.apply();" << endl;

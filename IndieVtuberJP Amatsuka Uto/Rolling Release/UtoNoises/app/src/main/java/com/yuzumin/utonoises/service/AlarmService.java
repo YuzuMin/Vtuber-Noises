@@ -26,7 +26,7 @@ public class AlarmService extends Service {
     public void onCreate() {
         super.onCreate();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.alarm);
+        mediaPlayer = MediaPlayer.create(this, R.raw.utonoise81);
         mediaPlayer.setLooping(true);
 
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);

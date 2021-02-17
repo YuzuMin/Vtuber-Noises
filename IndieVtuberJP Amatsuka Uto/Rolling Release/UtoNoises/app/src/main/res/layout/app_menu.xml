@@ -94,7 +94,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-medium"
-                                    android:text="Gawr Gura Ch"
+                                    android:text="天使うと / Amatsuka Uto"
                                     android:textAlignment="center"
                                     android:textColor="@color/darkporcelain"
                                     android:textSize="11sp" />
@@ -103,7 +103,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="sans-serif-medium"
-                                    android:text="SHRIMP for Gura"
+                                    android:text="Become A Tenshimp"
                                     android:textAlignment="center"
                                     android:textColor="@color/porcelain" />
                             </LinearLayout>
