@@ -836,6 +836,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             listofsounds.add(10);
         }
 
+
         /*
         SavedSettings =getSharedPreferences("save11",MODE_PRIVATE);
         switch11= SavedSettings.getBoolean("value11",true);
