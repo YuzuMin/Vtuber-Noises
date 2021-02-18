@@ -91,20 +91,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
 
         getSupportActionBar().hide();
 
-        AppName=findViewById(R.id.AppName);
-        AppName.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                if(tapcount<10){
-                    tapcount++;
-                }else{
-                    Intent intent;
-                    intent = new Intent(MainActivity.this, HiddenPersonalArchive.class);
-                    startActivity(intent);
-                }
-            }
-        });
 
         MenuBTN=findViewById(R.id.menu_btn);
         MenuBTN.setOnClickListener(new View.OnClickListener() {
@@ -116,15 +103,6 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
             }
         });
 
-        AlarmBTN=findViewById(R.id.alarm_btn);
-        AlarmBTN.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent;
-                intent = new Intent(MainActivity.this, AlarmActivity.class);
-                startActivity(intent);
-            }
-        });
 
 
         SavedSettings =getSharedPreferences("save2",MODE_PRIVATE);
@@ -201,23 +179,7 @@ public class MainActivity extends AppCompatActivity implements Count.CountListen
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item){
-        switch (item.getItemId()){
-            case(R.id.Alarm):
-                Intent intent;
-                intent = new Intent(MainActivity.this, AlarmActivity.class);
-                startActivity(intent);
-                break;
-            case(R.id.menu_btn):
-                Intent settingmenu;
-                settingmenu = new Intent(MainActivity.this, AppMenu.class);
-                startActivity(settingmenu);
-                break;
 
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     private void stopAnimations(){
         if (anim1.isRunning())
