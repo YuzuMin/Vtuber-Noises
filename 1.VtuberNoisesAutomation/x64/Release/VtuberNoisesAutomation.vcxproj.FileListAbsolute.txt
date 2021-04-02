@@ -1,2 +1,0 @@
-D:\GIT\VtuberNoisesAutomation\x64\Release\VtuberNoisesAutomation.exe
-D:\GIT\Vtuber-Noises\1.VtuberNoisesAutomation\x64\Release\VtuberNoisesAutomation.exe

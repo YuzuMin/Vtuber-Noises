@@ -1,2 +1,0 @@
-D:\GIT\VtuberNoisesAutomation\Debug\VtuberNoisesAutomation.exe
-D:\GIT\VtuberNoisesAutomation\Debug\VtuberNoisesAutomation.pdb
