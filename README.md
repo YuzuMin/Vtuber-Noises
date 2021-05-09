@@ -1,5 +1,5 @@
 # Vtuber Noises
-GitHub repository for the Vtuber Noises Android App Project. This project will replace the Stay Home Dayo!! project due to Microsoft's Xamarin framework being littered with issues, lack of support and documentation. 
+This project replaces the Stay Home Dayo!! project due to Microsoft's Xamarin framework being littered with issues, lack of support and documentation. Just like its predecessor, it was originally an implementation project to mimic the <a href="https://play.google.com/store/apps/details?id=com.VizegrafIndie.Tuturu&hl=en_SG&gl=US">Tuturu</a> app from the Google Play Store. It currently serves as a base for anyone who wishes to build a similar app for personal entertainment or commercial purposes.
 
 ## Version  
 ~~~
