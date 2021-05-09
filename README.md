@@ -19,7 +19,7 @@ Android Ver : Android 10.0 (Q) on Physical Device
 ~~~
 #### Minimum
 ~~~
-Android SDK : Android 11.0 (R) platform 30
+Android SDK : Android 11.0 (R) API 30
 Android Ver : Android 8.1 (O) on Virtual Device
 ~~~
 
