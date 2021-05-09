@@ -9,6 +9,25 @@ Version Code : 2
 Version Name : 2021.3 REV-2
 ~~~
 
+## Requirements
+Before you code it is recommended to have the minimum Android SDK on your IDE for packages to load properly and for the application to compile properly. A physical device is favoured over ADVs (Android Virtual Devices) due to the ability to notice hardware issues and image scaling issues which aren't as obvious on ADVs running stock Android.
+
+#### Recommended
+~~~
+Android SDK : Android S Preview API S
+Android Ver : Android 10.0 (Q) on Physical Device
+~~~
+#### Minimum
+~~~
+Android SDK : Android 11.0 (R) platform 30
+Android Ver : Android 8.1 (O) on Virtual Device
+~~~
+
+## Tips
+* Use Android Studio or IntelliJ IDEA for ease of debugging
+* Generate code using <a href="https://github.com/YuzuMin/VtuberNoisesAutomation/releases/download/1/VNA.zip">VNA (Vtuber Noises Automation)</a>
+* It is recommended to use a PC with a 8th Gen core i7 or equivalent AMD cpu for better .apk or .aab compression
+
 ## Apps on Google Play
 [<img src="Assets/gura.png"
 alt="Gura Noises"
