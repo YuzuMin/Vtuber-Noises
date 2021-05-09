@@ -1,6 +1,14 @@
 # Vtuber Noises
 GitHub repository for the Vtuber Noises Android App Project. This project will replace the Stay Home Dayo!! project due to Microsoft's Xamarin framework being littered with issues, lack of support and documentation. 
 
+## Version  
+~~~
+Variant Name : Calliope
+Release Type : Stable
+Version Code : 2
+Version Name : 2021.3 REV-2
+~~~
+
 ## Apps on Google Play
 [<img src="Assets/gura.png"
 alt="Gura Noises"
@@ -43,4 +51,4 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.nenenoi
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Watson-Amelia-Noises">HololiveEN GEN1 Watson Amelia Noises</a>
 
 ## License  
-MIT License
+<a href="LICENSE">MIT License</a>
