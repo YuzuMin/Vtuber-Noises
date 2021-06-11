@@ -56,6 +56,9 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.calliop
 [<img src="Assets/nene.png"
 alt="Nene Noises"
 height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.nenenoises)
+[<img src="Assets/amelia.png"
+alt="Amelia Noises"
+height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.amelianoises)
 
 ## Fork Projects
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Takanashi-Kiara-Noises">HololiveEN GEN1 Takanashi Kiara Noises</a>
