@@ -66,7 +66,7 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.amelian
 * <a href="https://github.com/YuzuMin/Hololive-GEN5-Omaru-Polka-Noises">Hololive GEN5 Omaru Polka Noises</a>
 * <a href="https://github.com/YuzuMin/IndieVtuberJP-Amatsuka-Uto-Noises">IndieVtuberJP Amatsuka Uto Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-GEN3-Usada-Pekora-Noises">Hololive GEN3 Usada Pekora Noises</a>
-* <a href="https://github.com/YuzuMin/Hololive-GEN2-Nakiri-Ayame">Hololive GEN2 Nakiri Ayame Noises</a>
+* <a href="https://github.com/YuzuMin/Hololive-GEN2-Nakiri-Ayame-Noises">Hololive GEN2 Nakiri Ayame Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-Solo-Debut-Sakura-Miko-Noises">Hololive Solo Debut Sakura Miko Noises</a>
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Mori-Calliope-Noises-">HololiveEN GEN1 Mori Calliope Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-Gen5-Momosuzu-Nene-Noises">Hololive Gen5 Momosuzu Nene Noises</a>
