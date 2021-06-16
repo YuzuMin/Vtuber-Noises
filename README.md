@@ -71,6 +71,8 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.amelian
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Mori-Calliope-Noises-">HololiveEN GEN1 Mori Calliope Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-Gen5-Momosuzu-Nene-Noises">Hololive Gen5 Momosuzu Nene Noises</a>
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Watson-Amelia-Noises">HololiveEN GEN1 Watson Amelia Noises</a>
+* <a href="https://github.com/YuzuMin/Hololive-GEN4-Kiryu-Coco-Noises">Hololive GEN4 Kiryu Coco Noises</a>
+
 
 ## License  
 <a href="LICENSE">MIT License</a>
