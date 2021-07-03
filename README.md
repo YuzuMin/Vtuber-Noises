@@ -56,6 +56,12 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.calliop
 [<img src="Assets/nene.png"
 alt="Nene Noises"
 height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.nenenoises)
+[<img src="Assets/amelia.png"
+alt="Amelia Noises"
+height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.amelianoises)
+[<img src="https://raw.githubusercontent.com/YuzuMin/YuzuMin/main/Assets/coco.png"
+alt="Coco Noises"
+height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.coconoises)
 
 ## Fork Projects
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Takanashi-Kiara-Noises">HololiveEN GEN1 Takanashi Kiara Noises</a>
@@ -63,11 +69,13 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.nenenoi
 * <a href="https://github.com/YuzuMin/Hololive-GEN5-Omaru-Polka-Noises">Hololive GEN5 Omaru Polka Noises</a>
 * <a href="https://github.com/YuzuMin/IndieVtuberJP-Amatsuka-Uto-Noises">IndieVtuberJP Amatsuka Uto Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-GEN3-Usada-Pekora-Noises">Hololive GEN3 Usada Pekora Noises</a>
-* <a href="https://github.com/YuzuMin/Hololive-GEN2-Nakiri-Ayame">Hololive GEN2 Nakiri Ayame Noises</a>
+* <a href="https://github.com/YuzuMin/Hololive-GEN2-Nakiri-Ayame-Noises">Hololive GEN2 Nakiri Ayame Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-Solo-Debut-Sakura-Miko-Noises">Hololive Solo Debut Sakura Miko Noises</a>
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Mori-Calliope-Noises-">HololiveEN GEN1 Mori Calliope Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-Gen5-Momosuzu-Nene-Noises">Hololive Gen5 Momosuzu Nene Noises</a>
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Watson-Amelia-Noises">HololiveEN GEN1 Watson Amelia Noises</a>
+* <a href="https://github.com/YuzuMin/Hololive-GEN4-Kiryu-Coco-Noises">Hololive GEN4 Kiryu Coco Noises</a>
+
 
 ## License  
 <a href="LICENSE">MIT License</a>
