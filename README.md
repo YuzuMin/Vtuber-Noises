@@ -59,7 +59,7 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.nenenoi
 [<img src="Assets/amelia.png"
 alt="Amelia Noises"
 height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.amelianoises)
-[<img src="https://raw.githubusercontent.com/YuzuMin/YuzuMin/main/Assets/coco.png"
+[<img src="Assets/coco.png"
 alt="Coco Noises"
 height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.coconoises)
 
