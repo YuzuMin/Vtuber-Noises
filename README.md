@@ -75,7 +75,7 @@ height="150">](https://play.google.com/store/apps/details?id=com.yuzumin.coconoi
 * <a href="https://github.com/YuzuMin/Hololive-Gen5-Momosuzu-Nene-Noises">Hololive Gen5 Momosuzu Nene Noises</a>
 * <a href="https://github.com/YuzuMin/HololiveEN-GEN1-Watson-Amelia-Noises">HololiveEN GEN1 Watson Amelia Noises</a>
 * <a href="https://github.com/YuzuMin/Hololive-GEN4-Kiryu-Coco-Noises">Hololive GEN4 Kiryu Coco Noises</a>
-
+* <a href="https://github.com/YuzuMin/Hololive-CEO-Yagoo-Noises">Hololive CEO Yagoo Noises</a>
 
 ## License  
 <a href="LICENSE">MIT License</a>
